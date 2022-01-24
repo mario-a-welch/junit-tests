@@ -16,6 +16,13 @@ public class StudentTest {
         studentTwo.addGrade(100);
     }
 
+//    @Test
+//    public void studentProperlyInitialized(){
+//        studentOne = new Student("Mario", 1235);
+//        Assert.assertEquals("Mario", studentOne.getName());
+//        Assert.assertEquals(1235, studentOne.getId());
+//    }
+
     @Test
     public void testGetID(){
         Assert.assertEquals(1235, studentOne.getId());
